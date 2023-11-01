@@ -1,0 +1,160 @@
+/* genel */
+.text-center {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 1.5rem;
+}
+
+span {
+    font-family: 'Onest', sans-serif;
+}
+
+/* background */
+.bg-candy-pink {
+    background: #ffb8ea;
+}
+
+
+/* buttons */
+.btn {
+    border-radius: 5px;
+    font-family: 'Onest', sans-serif;
+}
+
+.btn-block {
+    width: 100%;
+    padding: 1rem;
+    display: block;
+    margin: auto;
+}
+
+.btn-primary {
+    border: none;
+    background-color: #ff95d6;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #ff51b1;
+    border: 0.5px solid #f5aed5;
+}
+
+
+/* contact */
+
+textarea {
+    width: 100%;
+}
+
+.form-group textarea {
+    resize: none;
+    overflow: hidden;
+    border: none;
+    border-radius: 5px;
+    overflow-x: hidden;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 95%;
+}
+
+.form-group label {
+    display: block;
+    color: #e248b4;
+    font-size: 1.2rem;
+}
+
+.form-control {
+    width: 95%;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form h4 {
+    margin: 20px 0px 0px;
+}
+
+.contact-form ul {
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+    margin-right: 3rem;
+}
+
+.form-header {
+    width: 14rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-form ul li a {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.contact-form ul li a:hover {
+    opacity: 0.8;
+}
+
+
+/* container */
+.continer {
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* training */
+.training {
+    background: #ffdff7;
+    color: #ff95d6;
+    padding: 1rem;
+}
+
+#training .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+#training .items i {
+    font-size: 1.7rem;
+}
+
+#training .items p {
+    color: #c7006d;
+    transition: 0.5s ease;
+    padding: 0px;
+}
+
+#training .items .item {
+    text-align: center;
+    padding: 20px;
+    transition: 0.5s ease;
+    border-radius: 2rem;
+}
+
+#training .items .item:hover {
+    background-color: #ff95d6;
+    color: #c7006d;
+    transition: 0.5s ease;
+}
